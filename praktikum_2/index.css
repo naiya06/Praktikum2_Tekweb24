@@ -1,0 +1,112 @@
+/* Typography */
+body {
+  font-family: 'Poppins', sans-serif; /* Modern, clean font */
+  color: #4a4a4a; /* Soft dark gray for text */
+  line-height: 1;
+  background-color: #fce4ec; /* Light pink pastel background */
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 17px; /* Rounded corners for body */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #64b5f6; /* Light blue pastel for headings */
+  font-weight: 600;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+/* Paragraphs and List Items */
+p, li {
+  background-color: #ffffff; /* White cards */
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */
+}
+
+li {
+  border-left: 5px solid #64b5f6; /* Light blue pastel border for list */
+}
+
+/* Links */
+a {
+  color: #f48fb1; /* Pink pastel for links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+a:hover {
+  color: #ec407a; /* Darker pink for hover effect */
+}
+
+/* Image */
+img {
+  width: 200px;
+  height: 200px; 
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid#64b5f6;
+  margin-top: 20px;
+  margin-bottom:50px;
+}
+
+img:hover {
+  /* transform: scale(1.05); Slight zoom on hover */
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  img {
+      width: 150%; /* Ukuran lebih kecil untuk perangkat mobile */
+      height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+      width: 90%;
+  }
+  
+  img {
+      width: 150px;
+      height: 150px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.6rem;
+  }
+
+  h3 {
+      font-size: 1.2rem;
+  }
+}
+
+/* Subtle Animations and Hover Effects */
+li:hover, p:hover {
+  background-color: #f8bbd0; /* Light pink pastel hover effect */
+  transition: background-color 0.3s ease;
+}
